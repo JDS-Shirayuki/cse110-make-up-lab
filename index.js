@@ -6,10 +6,8 @@ let operations = []
 var begin = null
 try {
     begin = document.getElementById("begin")
-    begin.innerHTML = "Begin calculator"
 } catch(err) {
     begin = document.createElement("p")
-    begin.innerHTML = "Begin calculator"
     const headerElement = document.querySelector("h1")
     headerElement.after(begin)
 } finally {
