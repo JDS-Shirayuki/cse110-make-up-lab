@@ -42,7 +42,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
                 if (numB == 0) throw divideBy0Err;
                 result = numA / numB
             } catch (divideBy0Err) {
-                result = 'Cannot Divide By 0'
+                result = 'undefined value'
             } finally {
                 break
             }
@@ -65,7 +65,7 @@ function consoleLog() {
 }
 
 function consoleError() {
-    console.error('Cannot Divide By 0')
+    console.error('Not Divisible by 0')
 }
 
 function consoleTable() {
